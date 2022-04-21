@@ -28,16 +28,6 @@ main p {
   margin-top: 0;
 }
 
-@media all and (min-width: 800px) {
-  section {
-    padding: 0 10%;
-  }
-
-  .group {
-    flex-direction: row;
-  }
-}
-
 /* Groups & Items  (Mobile First) */
 
 .group {
@@ -54,4 +44,14 @@ main p {
 .item-double {
   flex: 2;
   margin: 10px;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
 }
